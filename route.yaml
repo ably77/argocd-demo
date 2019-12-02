@@ -7,7 +7,6 @@ metadata:
   labels:
     app: httpd
   name: httpd
-  selfLink: /apis/route.openshift.io/v1/namespaces/argocd/routes/httpd
 spec:
   host: httpd-simple-app.apps-crc.testing
   port:
