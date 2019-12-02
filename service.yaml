@@ -5,6 +5,7 @@ metadata:
   labels:
     app: httpd
   name: httpd
+  selfLink: /api/v1/namespaces/argocd/services/httpd
 spec:
   ports:
   - port: 8080

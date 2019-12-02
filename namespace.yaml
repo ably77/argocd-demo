@@ -7,6 +7,7 @@ metadata:
     openshift.io/sa.scc.uid-range: 1000530000/10000
   creationTimestamp: null
   name: simple-app
+  selfLink: /api/v1/namespaces/simple-app
 spec:
   finalizers:
   - kubernetes
