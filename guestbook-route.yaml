@@ -15,7 +15,7 @@ spec:
   subdomain: ""
   to:
     kind: Service
-    name: consumer-app
+    name: guestbook
     weight: 100
   wildcardPolicy: None
 status:
