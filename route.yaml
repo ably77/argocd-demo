@@ -5,16 +5,16 @@ metadata:
     openshift.io/host.generated: "true"
   creationTimestamp: null
   labels:
-    app: guestbook-ui
-  name: guestbook-ui
+    app: guestbook
+  name: guestbook
 spec:
-  host: guestbook-ui-myproject.apps.ly-demo.openshiftaws.com
+  host: guestbook-myproject.apps.ly-demo.openshiftaws.com
   port:
-    targetPort: 8081
+    targetPort: 80
   subdomain: ""
   to:
     kind: Service
-    name: guestbook-ui
+    name: guestbook
     weight: 100
   wildcardPolicy: None
 status:
