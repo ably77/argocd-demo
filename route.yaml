@@ -10,7 +10,7 @@ metadata:
 spec:
   host: guestbook-ui-myproject.apps.ly-demo.openshiftaws.com
   port:
-    targetPort: 80
+    targetPort: 8081
   subdomain: ""
   to:
     kind: Service
