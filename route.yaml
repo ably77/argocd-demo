@@ -10,7 +10,7 @@ metadata:
 spec:
   host: httpd-myproject.apps.ly-demo.openshiftaws.com
   port:
-    targetPort: 8080
+    targetPort: 8081
   subdomain: ""
   to:
     kind: Service
