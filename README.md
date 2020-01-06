@@ -1,2 +1,3 @@
 # argocd-demo
- 
+
+Guestbook app
