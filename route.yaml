@@ -8,7 +8,7 @@ metadata:
     app: httpd
   name: httpd
 spec:
-  host: httpd-simple-app-myproject.apps.ly-demo.openshiftaws.com
+  host: httpd-app-myproject.apps.ly-demo.openshiftaws.com
   port:
     targetPort: 8080
   subdomain: ""
